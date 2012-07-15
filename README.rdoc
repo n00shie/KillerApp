@@ -18,3 +18,8 @@ Example of valid palindromes:
 
 2. Go to http://localhost:3000/ and you'll see:
        "Yo dawg, I heard you like palindromes"
+
+
+== Online Demo:
+
+This app is hosted on heroku: https://killerapp.herokuapp.com/
