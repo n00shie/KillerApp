@@ -1,0 +1,20 @@
+== This Killer App checks if your input string is a palindrome
+
+It checks for integer and string palindromes, as well as palindrome phrases.
+
+Example of valid palindromes:
+
+"12345654321"
+
+"Racecar"
+
+"Do good? I? No! Evil anon I deliver. I maim nine more hero-men in Saginaw, sanitary sword a-tuck, Carol, I -- lo! -- rack, cut a drowsy rat in Aswan. I gas nine more hero-men in Miami. Reviled, I (Nona) live on. I do, O God!"
+
+
+== Getting Started
+
+1. After cloning the directory, apply the migration:
+       rake db:migrate
+
+2. Go to http://localhost:3000/ and you'll see:
+       "Yo dawg, I heard you like palindromes"

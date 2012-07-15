@@ -1,0 +1,7 @@
+<h1>Yo dawg, I heard you like Palindromes</h1>
+<div class="center hero-unit">      
+	<%= form_tag("/validate", :action => "validate") do %>
+		<%= text_field_tag(:input) %>
+		<%= submit_tag(value = "Check if palindrome", options = {class: "btn btn-med btn-primary"})%>
+	<% end %>
+</div>

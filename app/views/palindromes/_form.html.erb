@@ -1,0 +1,17 @@
+<%= form_for(@palindrome) do |f| %>
+  <% if @palindrome.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@palindrome.errors.count, "error") %> prohibited this palindrome from being saved:</h2>
+
+      <ul>
+      <% @palindrome.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
